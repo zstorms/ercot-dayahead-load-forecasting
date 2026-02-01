@@ -6,5 +6,14 @@ dist/
 wheels/
 *.egg-info
 
+# Data artifacts
+data/
+reports/
+
 # Virtual environments
 .venv
+.env
+.pyc
+.DS_Store
+**/.DS_Store
+
