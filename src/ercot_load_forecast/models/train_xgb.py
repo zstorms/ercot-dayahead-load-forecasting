@@ -4,7 +4,7 @@ import os
 import pandas as pd
 from xgboost import XGBRegressor
 
-from src.ercot_forecast.models.metrics import evaluate_all
+from src.ercot_load_forecast.models.metrics import evaluate_all
 
 
 FEATURES = [

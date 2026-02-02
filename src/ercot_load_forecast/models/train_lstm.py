@@ -8,7 +8,7 @@ from torch import nn
 from torch.utils.data import Dataset, DataLoader
 import lightning as L
 
-from src.ercot_forecast.models.metrics import evaluate_all
+from src.ercot_load_forecast.models.metrics import evaluate_all
 
 
 # ============================
